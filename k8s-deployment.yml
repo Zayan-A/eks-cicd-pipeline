@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: 024848438425.dkr.ecr.us-east-1.amazonaws.com/eks-cicd:latest
-        ports:
+        image: 024848438425.dkr.ecr.us-east-1.amazonaws.com/eks-cicd
+          ports:
         - containerPort: 80
         imagePullPolicy: Always # Always  # or "IfNotPresent" or "Never"
 ---
