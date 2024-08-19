@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: 587027614473.dkr.ecr.us-east-1.amazonaws.com/cicd-integrate-clair_and_ecr
+        image: 024848438425.dkr.ecr.us-east-1.amazonaws.com/eks-cicd:latest
         ports:
         - containerPort: 80
         imagePullPolicy: Always # Always  # or "IfNotPresent" or "Never"
